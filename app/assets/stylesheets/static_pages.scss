@@ -51,4 +51,17 @@ body {
 .footer {
 	background-color: white;
 	padding: 1.5em;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.body-wrap {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.land-body {
+	text-align: center;
+	margin-top: 100px;
 }
