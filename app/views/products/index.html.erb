@@ -18,7 +18,7 @@
 		<% end %>
 	</div>
 </div>
-
+<%= render partial: 'shared/form', locals: { product: product } %>
 <br>
 
 <%= link_to 'New Product', new_product_path %>
