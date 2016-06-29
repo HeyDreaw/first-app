@@ -66,3 +66,5 @@ end
 group :development do
 end
 
+gem 'stripe'
+
