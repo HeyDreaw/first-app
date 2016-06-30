@@ -2,6 +2,7 @@
 <div class="container-fluid" id="prod-show">
 	<div class="row">
 		<div class="col-md-6 col-xs-12">
+			<% cache @product do %>
 			<p>
 				<%= image_tag(@product.image_url, class: "img-responsive") %>
 			</p>
@@ -26,6 +27,7 @@
 				<strong>Price:</strong>
 				<%= @product.price %>
 			</p>
+			<% end %>
 		</div>
 			<p>Average Rating: <div class="rated" data-score="<%= @product.average_rating %>"></div> </p>
 	
