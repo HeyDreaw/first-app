@@ -64,5 +64,18 @@ group :development, :test do
 	gem "factory_girl_rails", "~> 4.0"
 end
 
+group :development do 
+  gem 'brakeman', :require => false 
+end
+
+# Brakeman
+#gem cert --add <(curl -Ls https://raw.github.com/presidentbeef/brakeman/master/brakeman-public_cert.pem)
+
+# ruby_parser, etc.
+#gem cert --add <(curl -Ls http://www.zenspider.com/~ryan/gem-public_cert.pem)
+
+# multijson
+#gem cert --add <(curl -Ls https://raw.githubusercontent.com/intridea/multi_json/master/certs/rwz.pem)
+
 
 
