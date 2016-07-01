@@ -68,3 +68,4 @@ end
 
 gem 'stripe'
 
+gem 'redis-rails'
