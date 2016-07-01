@@ -67,17 +67,11 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.6.0)
-
     factory_girl (4.7.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.7.0)
       factory_girl (~> 4.7.0)
       railties (>= 3.0.0)
-    globalid (0.3.6)
-      activesupport (>= 4.1.0)
-    http-cookie (1.0.2)
-      domain_name (~> 0.5)
-
     ffi (1.9.10)
     formatador (0.2.5)
     globalid (0.3.6)
@@ -101,7 +95,8 @@ GEM
       guard (~> 2.0)
       guard-compat (~> 1.0)
       spork (>= 0.8.4)
-
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     i18n (0.7.0)
     jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
@@ -125,11 +120,8 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.11.2)
-
-    netrc (0.11.0)
-
     nenv (0.3.0)
-
+    netrc (0.11.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     notiffany (0.1.0)
@@ -181,17 +173,14 @@ GEM
       json (~> 1.4)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
-
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
-
     rspec (3.4.0)
       rspec-core (~> 3.4.0)
       rspec-expectations (~> 3.4.0)
       rspec-mocks (~> 3.4.0)
-
     rspec-core (3.4.4)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -268,13 +257,10 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   dalli
   devise
-
   factory_girl_rails (~> 4.0)
-
   guard
   guard-rspec
   guard-spork
-
   jbuilder (~> 2.0)
   jquery-rails
   pg
