@@ -64,7 +64,16 @@ group :development, :test do
 	gem "factory_girl_rails", "~> 4.0"
 end
 
+
 gem 'dalli'
 
 gem 'stripe'
+
+group :development do
+	gem 'guard'
+	gem 'guard-rspec', require: false
+	gem 'spork-rails'
+	gem 'guard-spork'
+end
+
 
