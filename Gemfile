@@ -68,3 +68,6 @@ end
 
 gem 'stripe'
 
+gem 'angularjs-rails'
+
+
