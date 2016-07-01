@@ -8,11 +8,8 @@ $(document).on('ready page:load', function(){
     });
 	
 $('.img-zoom').elevateZoom({
-    		constrainType:"height",
-    		constrainSize:274,
-    		zoomType: "lens",
-    		containLensZoom: true,
-    		scrollZoom: true,
-  	});
+ 		zoomType	: "inner", cursor: "crosshair"
+ 
+ 	});
 	
 });
