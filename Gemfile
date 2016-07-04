@@ -93,3 +93,5 @@ end
 gem 'angularjs-rails'
 
 
+gem 'redis-rails'
+
