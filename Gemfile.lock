@@ -271,8 +271,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  brakeman
   angularjs-rails
+  brakeman
   byebug
   cancancan (~> 1.10)
   coffee-rails (~> 4.1.0)
