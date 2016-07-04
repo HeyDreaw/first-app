@@ -90,3 +90,6 @@ group :development do
 	gem 'guard-spork'
 end
 
+gem 'angularjs-rails'
+
+
